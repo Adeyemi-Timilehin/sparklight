@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,241 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#navbarNav{
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-bgcolor{
+  background-color:#F5F5F5 ;
+}
+h1,h2,h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+h1{
+  position: absolute;
+height: 184px;
+left: 9.72%;
+right: 47.36%;
+top: 266px;
+
+
+font-size: 77px;
+line-height: 92px;
+/* or 119% */
+
+letter-spacing: 3.5px;
+
+color: #161515;
+}
+.diysection{
+  position: absolute;
+  height: 1223px;
+  left: 0%;
+  right: 0%;
+  top: 60%;
+  
+  background: #223B41;
+  border-radius: 0px;
+}
+.diysection-heading{
+  
+height: 104px;
+left: 22.42%;
+right: 22.42%;
+top: 1.5em;;
+
+
+font-size: 44px;
+line-height: 52px;
+/* or 118% */
+
+text-align: center;
+letter-spacing: 1.75px;
+
+color: #FFFFFF;
+
+}
+.diysection-image{
+position: absolute;
+height: 760px;
+width:1160px;
+left: 25%;
+right: 0%;
+top: 300px;
+background: url("/src/images/diy.PNG") no-repeat;
+border-radius: 0px;
+}
+.diysection-pagination p{
+  top: 900px;
+background: #A7E8E0;
+position: absolute;
+height: 12px;
+}
+p.diysection-pagination__p1{
+left: 47.33%;
+right: 51.64%; 
+}
+p.diysection-pagination__p2{
+  left: 48.79%;
+  right: 50.17%;
+}
+p.diysection-pagination__p3{
+  left: 50.26%;
+right: 48.71%;
+}
+.section3{
+  position: absolute;
+  top: 110em;
+left: 0;
+right: 0;
+   
+  
+}
+.section3__heading{
+  font-size: 42px;
+line-height: 51px;
+/* identical to box height, or 122% */
+
+letter-spacing: 2.5px;
+
+color: #161515;
+}
+p{
+  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+color: #161515;
+}
+.section3__subpara{
+  margin-left: 1.5em;
+}
+.section3_submain{
+  
+  margin:8em auto 0;
+
+}
+.lastsection{
+  position: absolute;
+height: 650px;
+left: 0%;
+right: 0%;
+top: 200em;
+background: #223B41;
+/* border-radius: 0px; */
+}
+.lastsection h2{
+  font-size: 40px;
+
+/* or 118% */
+margin-bottom:20px;
+width:75%;
+letter-spacing: 1.5px;
+
+color: #A7E8E0;
+}
+.lastsection .md{
+  margin-top: 166px;
+  width:30%;
+
+}
+.lastsection p{
+  font-size: 22px;
+line-height: 32px;
+/* or 145% */
+
+letter-spacing: 0.75px;
+
+color: #FFFFFF;
+}
+.lastsection .p1{
+height: 40px;
+width:30%;
+background: #FFFFFF;
+border-radius: 0px;
+}
+.lastsection .p4{
+  height: 40px;
+  width:20%;
+  background: #2fb4ae;
+  border-radius: 0px;
+  }
+  .bgButton{
+   
+    background:#223B41 !important;
+  }
+
+.lastsection p{
+  font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+color: #FFFFFF;
+}
+.lastsection .img{
+  position: absolute;
+  right:15px;
+}
+.footer{
+position: absolute;
+height: 700px;
+left: 0%;
+right: 0%;
+top: 240.7em;
+background: #161515;
+}
+.footer p{
+  font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: rgba(255, 255, 255, 0.5);
+
+}
+.footer_subsection{
+  margin:0 4em !important;
+}
+p.mt{
+  margin-top: 7em !important;
+  color: #ffffff;
+}
+.footer p.PD{
+  width: 70%;
+
+  height:10%;
+background: rgba(13, 196, 180, 0.1) !important;
+
+}
+.footer p.PD2{
+  width: 30%;
+  height:10%;
+  background: #FFFFFF;
+
+}
+.footer__last{
+  margin-top: 166px;
+}
+.footer__last p{
+  padding: 0 5px;
+}
+ul li{
+  list-style: none;
+  padding:.2em 0;
+}
+.footer-last__list{
+
+  color: #FFFFFF;
+  list-style: none;
+}
+.footer-last__list li{
+  padding:0 50px;
+  line-height: 24px;
 }
