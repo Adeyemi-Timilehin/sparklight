@@ -12,7 +12,7 @@
   </button>
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav flex">
-      {link.map(links =><li key={links}  className="nav-item"><a className="nav-link" href="">{links}</a></li>)}
+      {link.map(links =><li key={links}  className="nav-item"><button className="nav-link">{links}</button></li>)}
 
     </ul>
   </div>
