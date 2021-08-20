@@ -13,7 +13,8 @@ return myname=headingText;
 }
     }
     location();
-    axios.defaults.baseURL =`https://api.openweathermap.org/data/2.5/weather?q=${myname}&appid=a25f592a249f6c01045e6ff9fa01a1ec&units=metric`;
+    const api="a25f592a249f6c01045e6ff9fa01a1ec";
+    axios.defaults.baseURL =`https://api.openweathermap.org/data/2.5/weather?q=${myname}&appid=${api}&units=metric`;
     
   
   
