@@ -1,3 +1,4 @@
+import React from "react";
 const Footer=()=>{
 const about=["Home","why Endplan","For Business","Security","FAQ","Blog","Privacy","Terms"];
 const social=["facebook","twitter","Linkedin","Instagram"];

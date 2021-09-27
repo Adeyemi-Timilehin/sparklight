@@ -1,3 +1,4 @@
+import React from "react";
  import MainSection from "./MainSection"
  import DYSection from "./DYSection"
  import Section3 from "./Section3";

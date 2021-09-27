@@ -1,3 +1,4 @@
+import React from "react";
  function Navbar(){
    const link=["Why Timik","For Employers","Security","FAQ","Blog"];
   return(

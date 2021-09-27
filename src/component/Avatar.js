@@ -1,3 +1,4 @@
+import React from "react";
 export default function Avatar({img,imgSrc,imgr}){
     return(
         <>

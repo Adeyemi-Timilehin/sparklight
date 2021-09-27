@@ -1,4 +1,5 @@
-import Avatar from "./Avatar.jsx"
+import React from "react";
+import Avatar from "./Avatar.js"
 const LastSections =()=> {
     return(
         <div className="lastsection container-fluid">
