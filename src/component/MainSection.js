@@ -66,12 +66,12 @@ if(temper>14){
               </div>
             </div>
           </form>
-          <p className={`alert mt-3 w-50  ${(temper>15)?'alert-success':'alert-danger'} `}>  {locationName}</p>
+          <p className={` mt-3 w-50  ${(temper>15)?'alert alert-success':'alert alert-danger'} `}>  {locationName}</p>
           <img src={imgSrc} alt="" />
           <p>{main}</p>
          
         
-          {temper} C
+          {(temper)&&temper+"C"}
           
         </div>
       </div>
